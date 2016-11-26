@@ -1,0 +1,11 @@
+.editContent {
+    background-color: whitesmoke;
+    margin: 30%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
