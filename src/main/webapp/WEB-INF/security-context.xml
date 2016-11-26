@@ -14,7 +14,7 @@
     </security:authentication-manager>
     <security:http use-expressions="true">
         <security:intercept-url pattern="/edit/**" access="isAuthenticated()"/>
-        <security:intercept-url pattern="/view/**" access="isAuthenticated()"/>
+        <security:intercept-url pattern="/view/**" access="permitAll"/>
         <security:intercept-url pattern="/save/**" access="isAuthenticated()"/>
         <security:intercept-url pattern="/delete/**" access="isAuthenticated()"/>
         <security:intercept-url pattern="/" access="permitAll"/>

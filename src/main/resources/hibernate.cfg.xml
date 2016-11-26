@@ -4,9 +4,9 @@
     <session-factory>
         <!-- Database connection settings -->
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://159.203.45.50:3306/hibernatedb</property>
-        <property name="connection.username">javaDB</property>
-        <property name="connection.password">sherid@nCOLLEGE2016</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/hibernatedb</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">12345</property>
 
         <!-- Set the database dialect -->
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
