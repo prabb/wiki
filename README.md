@@ -1,7 +1,8 @@
 # Wiki Articles
 
 A wiki system based on the popular Wikipedia model
-Demo: `https://wiki.mybluemix.net`
+
+[Demo](https://wiki.mybluemix.net)
 
 #Run Locally
 * `git clone --depth 1 https://github.com/prabb/wiki.git wiki`
